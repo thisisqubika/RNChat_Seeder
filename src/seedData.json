@@ -1,0 +1,241 @@
+{
+	"users": [
+		{
+			"id": "1",
+			"threads": ["thread-1", "thread-2"]
+		},
+		{
+			"id": "2",
+			"threads": ["thread-1", "thread-2"]
+		}
+	],
+	"threads": [
+		{
+			"id": "thread-1",
+			"creatorId": "1",
+			"defaultUserRole": 4,
+			"memberIds": ["1", "2"],
+			"name": "thread-1",
+			"readReceipts": [
+				{
+					"userId": "2",
+					"readTime": "December 7, 2023 12:57:00 PM UTC-5"
+				},
+				{
+					"userId": "1",
+					"readTime": "December 7, 2023 12:57:00 PM UTC-5"
+				}
+			],
+			"usersRoles": [
+				{
+					"userId": "1",
+					"role": 4
+				},
+				{
+					"userId": "2",
+					"role": 4
+				}
+			]
+		},
+		{
+			"id": "thread-2",
+			"creatorId": "2",
+			"defaultUserRole": 4,
+			"memberIds": ["2", "1"],
+			"name": "thread-2",
+			"readReceipts": [
+				{
+					"userId": "2",
+					"readTime": "December 7, 2023 12:57:00 PM UTC-5"
+				},
+				{
+					"userId": "1",
+					"readTime": "December 7, 2023 12:57:00 PM UTC-5"
+				}
+			],
+			"usersRoles": [
+				{
+					"userId": "2",
+					"role": 4
+				},
+				{
+					"userId": "1",
+					"role": 4
+				}
+			]
+		}
+	],
+	"threadMessages": [
+		{
+			"threadId": "thread-1",
+			"messages": [
+				{
+					"id": "messages-1",
+					"authorId": "1",
+					"content": "Hello, how are you doing?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:00:00 PM UTC-5"
+				},
+				{
+					"id": "messages-2",
+					"authorId": "2",
+					"content": "Hi, I'm very good, and you?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:05:00 PM UTC-5"
+				},
+				{
+					"id": "messages-3",
+					"authorId": "1",
+					"content": "Good good, have you tried the new JavaScript framework everyone's talking about?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:10:00 PM UTC-5"
+				},
+				{
+					"id": "messages-4",
+					"authorId": "2",
+					"content": "Yeah, I've been experimenting with it. It's pretty cool! Have you started any projects with it?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:15:00 PM UTC-5"
+				},
+				{
+					"id": "messages-5",
+					"authorId": "1",
+					"content": "Not yet, still wrapping my head around the concepts. Any good resources you recommend?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:20:00 PM UTC-5"
+				},
+				{
+					"id": "messages-6",
+					"authorId": "2",
+					"content": "Check out this online tutorial. It breaks down the fundamentals really well.",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:25:00 PM UTC-5"
+				},
+				{
+					"id": "messages-7",
+					"authorId": "1",
+					"content": "Nice! By the way, have you ever had to deal with CORS issues? It's driving me crazy!",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:30:00 PM UTC-5"
+				},
+				{
+					"id": "messages-8",
+					"authorId": "2",
+					"content": "CORS can be a pain. Have you considered using a proxy server or setting up CORS headers on your server?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:35:00 PM UTC-5"
+				},
+				{
+					"id": "messages-9",
+					"authorId": "1",
+					"content": "Ah, good call. I'll give that a shot. Switching gears, have you looked into serverless architecture?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:40:00 PM UTC-5"
+				},
+				{
+					"id": "messages-10",
+					"authorId": "2",
+					"content": "Yes, I'm using AWS Lambda for a small project. Saves me a lot on hosting costs.",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:45:00 PM UTC-5"
+				},
+				{
+					"id": "messages-11",
+					"authorId": "1",
+					"content": "Impressive! I've been curious about serverless. How's the learning curve?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:50:00 PM UTC-5"
+				},
+				{
+					"id": "messages-12",
+					"authorId": "2",
+					"content": "It's not bad, especially if you're familiar with cloud services. Speaking of which, do you prefer AWS or Azure?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 1:55:00 PM UTC-5"
+				},
+				{
+					"id": "messages-13",
+					"authorId": "1",
+					"content": "I'm more of an AWS person. Their services seem more comprehensive. What about you?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:00:00 PM UTC-5"
+				},
+				{
+					"id": "messages-14",
+					"authorId": "2",
+					"content": "Same here. Azure has its strengths, but AWS just feels more intuitive to me. On a different note, do you use Git regularly?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:05:00 PM UTC-5"
+				},
+				{
+					"id": "messages-15",
+					"authorId": "1",
+					"content": "Git is a lifesaver! Couldn't imagine coding without version control. Have you tried GitFlow for branching?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:10:00 PM UTC-5"
+				},
+				{
+					"id": "messages-16",
+					"authorId": "2",
+					"content": "Yes, GitFlow is fantastic for managing feature branches and releases. Do you use any specific Git GUI?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:15:00 PM UTC-5"
+				},
+				{
+					"id": "messages-17",
+					"authorId": "1",
+					"content": "I've been using SourceTree lately. It simplifies complex Git workflows. Do you attend any coding meetups or conferences?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:20:00 PM UTC-5"
+				},
+				{
+					"id": "messages-18",
+					"authorId": "2",
+					"content": "Not as much as I'd like. The local meetup scene is great though. Ever thought about giving a tech talk?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:25:00 PM UTC-5"
+				},
+				{
+					"id": "messages-19",
+					"authorId": "1",
+					"content": "I've considered it. Public speaking is a bit daunting, but it could be a good challenge. Switching gears, what's your take on NoSQL databases?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:30:00 PM UTC-5"
+				},
+				{
+					"id": "messages-20",
+					"authorId": "2",
+					"content": "MongoDB is my go-to for document-based storage. Its flexibility is unmatched. Do you have a favorite database?",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:35:00 PM UTC-5"
+				},
+				{
+					"id": "messages-21",
+					"authorId": "1",
+					"content": "I lean towards PostgreSQL. ACID compliance gives me peace of mind",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:40:00 PM UTC-5"
+				},
+				{
+					"id": "messages-22",
+					"authorId": "2",
+					"content": "Oh I see, it is a great db",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 2:45:00 PM UTC-5"
+				}
+			]
+		},
+		{
+			"threadId": "thread-2",
+			"messages": [
+				{
+					"id": "messages-500",
+					"authorId": "2",
+					"content": "Hello 👋",
+					"messageTypeString": "string",
+					"timestamp": "December 5, 2023 3:00:00 PM UTC-5"
+				}
+			]
+		}
+	]
+}

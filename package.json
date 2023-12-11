@@ -1,0 +1,10 @@
+{
+  "name": "RNChat_Seeder",
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "start": "node ./src/seedFirestore.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
